@@ -41,11 +41,11 @@ Console.WriteLine("İki sayının ortalaması : " + avg);
 int mod = avg % 2;
 if (mod == 1)
 {
-    Console.Write("Girilen sayı tek");
+    Console.Write("Ortalama tek");
 }
 else
 {
-    Console.Write("Girilen sayı çift");
+    Console.Write("Ortalama çift");
 }
 
 //Girilen sayının tek mi çift mi karar veren yazılım
