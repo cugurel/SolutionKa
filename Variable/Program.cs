@@ -29,27 +29,37 @@
 //Console.WriteLine("Yaşınız: " + age);
 
 //Kullanıcının girdiği iki sayının ortalamasını alma
-//int a, b, sum, avg;
-//Console.WriteLine("İlk sayıyı giriniz: ");
-//a = Convert.ToInt32(Console.ReadLine());
-//Console.WriteLine("İkinci sayıyı giriniz: ");
-//b = Convert.ToInt32(Console.ReadLine());
-//sum = a + b;
-//avg = sum / 2;
-//Console.WriteLine("İki sayının ortalaması : " + avg);
+int a, b, sum, avg;
+Console.WriteLine("İlk sayıyı giriniz: ");
+a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("İkinci sayıyı giriniz: ");
+b = Convert.ToInt32(Console.ReadLine());
+sum = a + b;
+avg = sum / 2;
+Console.WriteLine("İki sayının ortalaması : " + avg);
 
-//Girilen sayının tek mi çift mi karar veren yazılım
-int number;
-Console.WriteLine("Sayı giriniz: ");
-number =  Convert.ToInt32(Console.ReadLine());
-
-int mod = number % 2;
-
-if(mod == 0)
+int mod = avg % 2;
+if (mod == 1)
 {
-    Console.WriteLine("Girilen sayı çifttir");
+    Console.Write("Girilen sayı tek");
 }
 else
 {
-    Console.WriteLine("Girilen sayı tektir");
+    Console.Write("Girilen sayı çift");
 }
+
+//Girilen sayının tek mi çift mi karar veren yazılım
+//int number;
+//Console.WriteLine("Sayı giriniz: ");
+//number =  Convert.ToInt32(Console.ReadLine());
+
+//int mod = number % 2;
+
+//if(mod == 0)
+//{
+//    Console.WriteLine("Girilen sayı çifttir");
+//}
+//else
+//{
+//    Console.WriteLine("Girilen sayı tektir");
+//}
