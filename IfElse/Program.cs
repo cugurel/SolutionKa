@@ -16,4 +16,24 @@
 //    Console.WriteLine("Sayı pozitif");
 //}
 
+//Girilen inputa haftanın gününü yazar
 
+int a;
+Console.WriteLine("0-7 arasında sayı girin");
+a = Convert.ToInt32(Console.ReadLine());
+
+switch (a)
+{
+	case 1:
+		Console.WriteLine("Pazartesi");
+		break;
+    case 2:
+        Console.WriteLine("Salı");
+        break;
+    case 3:
+        Console.WriteLine("Çarşamba");
+        break;
+    default:
+        Console.WriteLine("Şart sağlanmadı");
+		break;
+}
