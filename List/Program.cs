@@ -17,3 +17,7 @@ foreach (var student in students)
 {
     Console.WriteLine(student);
 }
+
+Console.WriteLine("Listenin ilk öğrencisi: " + students[0]);
+Console.WriteLine("Liste eleman sayısı: " + students.Count());
+
