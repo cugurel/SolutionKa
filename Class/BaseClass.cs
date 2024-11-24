@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Class
 {
-    public class BaseClass
+    public abstract class BaseClass
     {
         public int Id { get; set; }
         public string Brand { get; set; }

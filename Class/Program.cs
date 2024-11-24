@@ -45,3 +45,4 @@ for (int i = 0; i < cars.Count; i++)
     Console.WriteLine(cars[i].Currency);
     Console.WriteLine("-----------------------------------------------");
 }
+
