@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loop", "Loop\Loop.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{2F26B724-B242-4B5A-B7EF-D688B3F2F9F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{B53ED9A5-D4CC-4566-B53E-070BA5BBBFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List", "List\List.csproj", "{B53ED9A5-D4CC-4566-B53E-070BA5BBBFD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditExamples", "CreditExamples\CreditExamples.csproj", "{014D4DBC-C423-476A-AD34-4A622765625A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditExamples", "CreditExamples\CreditExamples.csproj", "{014D4DBC-C423-476A-AD34-4A622765625A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class", "Class\Class.csproj", "{6B601A1B-2091-42A3-8DA8-2D2C3477D8ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{014D4DBC-C423-476A-AD34-4A622765625A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{014D4DBC-C423-476A-AD34-4A622765625A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{014D4DBC-C423-476A-AD34-4A622765625A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B601A1B-2091-42A3-8DA8-2D2C3477D8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B601A1B-2091-42A3-8DA8-2D2C3477D8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B601A1B-2091-42A3-8DA8-2D2C3477D8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B601A1B-2091-42A3-8DA8-2D2C3477D8ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
