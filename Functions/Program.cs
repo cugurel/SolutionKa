@@ -8,15 +8,21 @@
 
 //WriteNameAndSurname(name,surname);
 
-int a = 5;
-int b = 7;
+//using Functions;
 
-int toplam;
+//int a = 10;
+//int b = 5;
 
-int Topla(int sayi1, int sayi2)
-{
-    return sayi1 + sayi2;
-}
+//Matematic matematic = new Matematic();
 
-toplam = Topla(a, b);
-Console.WriteLine(toplam);
+//int toplam = matematic.Add(a, b);
+//int cikarma = matematic.Substraction(a, b);
+//int carpim = matematic.Multiply(a, b);
+//int bölüm =  matematic.Division(a, b);
+
+//matematic.Print(a,b);
+//Console.WriteLine("Toplama sonucu: "+ toplam);
+//Console.WriteLine("Çıkarma sonucu: "+ cikarma);
+//Console.WriteLine("Çarpım sonucu: "+ carpim);
+//Console.WriteLine("Bölme sonucu: "+ bölüm);
+
