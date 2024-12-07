@@ -26,3 +26,11 @@
 //Console.WriteLine("Çarpım sonucu: "+ carpim);
 //Console.WriteLine("Bölme sonucu: "+ bölüm);
 
+
+using Functions;
+
+CreditClass creditClass = new CreditClass();
+int a = 1000;
+
+int geriOdeme = creditClass.IhtiyacHesapla(a);
+Console.WriteLine(geriOdeme);
